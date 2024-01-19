@@ -1,0 +1,39 @@
+
+@media (max-width:600px) {
+  .header-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+  .header ul{
+    flex-direction: column;
+  }
+  .movie-content{
+    flex-direction: column;
+    transform: translate(0);
+    
+  }
+  
+      .movie-poster{
+      height: 200px;
+      width: 150px;
+      object-fit: contain;
+      min-width: 30px;
+    }
+    
+.carousel-content .heading{
+  font-size: 17px;
+}
+
+.Carousel-discription{
+  display: none;
+}
+
+.menu-btn{
+  display: flex;
+  cursor: pointer;
+}
+
+
+}
